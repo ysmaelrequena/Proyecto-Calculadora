@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ysmael's Calculator</title>
+    <link rel="stylesheet" href="calculator.css"/>
+</head>
+    <body>
+        <h1>Calculator</h1>
+        
+        <div id="display">
+            <input type="text" id="numField"/> 
+        </div>
+
+            <table>
+                <tr>
+                <th><input type="button" value="7" class="numButton row1 buttons" id="button7"></th>
+                <th><input type="button" value="4" class="numButton row1 buttons" id="button4"/></th>
+                <th><input type="button" value="1" class="numButton row1 buttons" id="button1"/></th>
+                <th><input type="button" value="+" class="opButton row5 buttons" id="buttonPlus"></th>
+                </tr>
+                <tr>
+                    <th><input type="button" value="8" class="numButton row2 buttons" id="button8"/></th>
+                    <th><input type="button" value="5" class="numButton row2 buttons" id="button5"></th>
+                    <th><input type="button" value="2" class="numButton row2 buttons" id="button2"></th>
+                    <th><input type="button" value="-" class="opButton row5 buttons" id="buttonMinus"></th>
+                </tr>
+                <tr>
+                    <th><input type="button" value="9" class="numButton row3 buttons" id="button9"></th>
+                    <th><input type="button" value="6" class="numButton row3 buttons" id="button6"></th> 
+                    <th><input type="button" value="3" class="numButton row3 buttons" id="button3"></th>
+                    <th><input type="button" value="*" class="opButton row5 buttons" id="buttonMultiply"></th>
+                </tr>
+                <tr>
+                    <th><input type="button" value="0" class="numButton row4 buttons" id="button0"></th>
+                    <th><input type="button" value="." class="decButton row4 buttons" id="buttonDot"></th>
+                    <th><button type="submit" value="=" class="equalButton row4 buttons" id="buttonEqual">=</button></th>
+                    <th><input type="button" value="/" class="opButton row4 buttons" id="buttonDivide"></th>
+                </tr>
+                    <th><input type="button" value="CE" class="deleteButton row5 buttons" id="buttonDelete"/> </th>
+            </table>
+    </body>
+</html>
+<script src="calculator.js"></script>

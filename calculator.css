@@ -1,0 +1,49 @@
+body {
+    background-image: radial-gradient(#410f85 20%, #580826);
+}
+
+h1 {
+   font-size: 5rem;
+   text-align: center;
+}
+
+header {
+    background-color: #3107d0;
+    border: solid;
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    row-gap: 3rem;
+    
+}
+
+.buttons {
+    border: solid;
+    width: 5rem;
+    height: 3rem;
+}
+
+#display {
+    transform: translateX(69.3rem);
+    width: 20rem;
+    height: 5rem;
+    border: none;
+    background-color: none;   
+}
+
+#numField {
+    width: 20rem;
+    height: 5rem;
+    background-color: navy;
+    border: solid;
+    transform: translateX(-0.5rem);
+    transform: translateY(-0.5rem);
+    font-size: 35px;
+    direction: rtl;
+}
+
+
+
